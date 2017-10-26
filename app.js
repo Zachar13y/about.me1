@@ -93,8 +93,9 @@ const countries = ['canada', 'mexico', 'england', 'france', 'germany', 'italy', 
     
 
         score = countries.indexOf(beenCountries);
+
+}
         
        // while( !countries.includes( beenCountries) )
-    // console.log('Country guess: '+ beenCountries);
-}
+    // console.log('Country guess: '+ beenCountries))
 // .toLowerCase()
