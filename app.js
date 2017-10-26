@@ -90,7 +90,13 @@ const countries = ['canada', 'mexico', 'england', 'france', 'germany', 'italy', 
      if (countries.includes(beenCountries)){
         alert('Yes, I have been to that country')
     }
-    
+    if (countries === 0) {
+        alert( 'Totally!' );
+    } else if (score === 1) {
+        alert( 'Nice! Do you like hiking too?' );
+    } else if (score > 1) {
+        alert( 'that is not an option');
+    }
 
         score = countries.indexOf(beenCountries);
 
