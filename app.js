@@ -59,6 +59,20 @@ if( userRply5 === 'no' || userRply5 === 'n'){
 
 // Q6 number game
 
+const countryNum = ['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19', '20'];
+
+function guessNum (){
+    for (const i = 0; i <= 7 ; i++){
+        const countryNum = (' ' + prompt('Now, how many countries have I been to? You have 7 guesses'));
+
+        if( (countryNum === '13')){
+            alert( 'You got it right! And you can have another point.');
+            score++;
+            break;
+        }
+    }
+}
+
 
 
 // Question 7: Countries
@@ -80,6 +94,8 @@ function guessCountry (){
     }
 }
 
+guessNum();
+
 guessCountry();
 
 console.log(score);
@@ -100,3 +116,12 @@ console.log(score);
 // score = fruit.indexOf(favFruit); // 3
 
 // console.log(fruit.includes(favFruit));
+
+// function sum(a,b) {
+//     const c = a + b;{
+//     return [c, 'The sum of ',  + a + 'and ', + b + 'is', c]
+// }
+
+// function multiply(a,b){
+//     const c = a * b;{
+//     return [product, ' The product of', + a + 'and', + b + 'is', + 'c']
