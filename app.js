@@ -125,3 +125,4 @@ console.log(score);
 // function multiply(a,b){
 //     const c = a * b;{
 //     return [product, ' The product of', + a + 'and', + b + 'is', + 'c']
+//
